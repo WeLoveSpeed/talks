@@ -35,7 +35,7 @@ export const parseTalks = talks => {
       }
     }
   }
-  
+
   return talksArray;
 };
 

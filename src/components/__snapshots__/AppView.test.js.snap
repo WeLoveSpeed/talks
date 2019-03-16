@@ -24,12 +24,12 @@ ShallowWrapper {
             showMenuIconButton={true}
             style={
                 Object {
-                    "backgroundColor": "#8bc34a",
+                    "backgroundColor": "#f44336",
                   }
             }
             title={
                 <h1>
-                    Propositions de sujets Sud Web
+                    Propositions de sujets We Love Speed
                 </h1>
             }
             zDepth={1} />
@@ -91,12 +91,12 @@ ShallowWrapper {
                   showMenuIconButton={true}
                   style={
                         Object {
-                              "backgroundColor": "#8bc34a",
+                              "backgroundColor": "#f44336",
                             }
                   }
                   title={
                         <h1>
-                              Propositions de sujets Sud Web
+                              Propositions de sujets We Love Speed
                         </h1>
                   }
                   zDepth={1} />
@@ -220,12 +220,12 @@ ShallowWrapper {
                               showMenuIconButton={true}
                               style={
                                         Object {
-                                                  "backgroundColor": "#8bc34a",
+                                                  "backgroundColor": "#f44336",
                                                 }
                               }
                               title={
                                         <h1>
-                                                  Propositions de sujets Sud Web
+                                                  Propositions de sujets We Love Speed
                                         </h1>
                               }
                               zDepth={1} />
@@ -287,12 +287,12 @@ ShallowWrapper {
                               showMenuIconButton={true}
                               style={
                                         Object {
-                                                  "backgroundColor": "#8bc34a",
+                                                  "backgroundColor": "#f44336",
                                                 }
                               }
                               title={
                                         <h1>
-                                                  Propositions de sujets Sud Web
+                                                  Propositions de sujets We Love Speed
                                         </h1>
                               }
                               zDepth={1} />

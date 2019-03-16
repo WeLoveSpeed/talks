@@ -11,7 +11,7 @@ describe("Profile component", () => {
   it("should renders correctly", () => {
     const component = shallow(
       <Profile
-        profile={{ name: "Alex", email: "test@test.com" }}
+        profile={{ name: "Boris", email: "test@test.com" }}
         signout={fn}
       />
     );

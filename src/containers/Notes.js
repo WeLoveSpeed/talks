@@ -5,7 +5,7 @@ import { vote } from "../actions/Notes";
 
 const mapStateToProps = state => {
   console.log(state);
-  
+
   const notes = state.notes[state.selectedTalk].values;
 
   return {

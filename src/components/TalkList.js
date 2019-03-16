@@ -66,7 +66,7 @@ class TalkList extends Component {
           value={i}
           onTouchTap={() => this.props.selectTalk(talk.id)}
           primaryText={talk[CONFIG.fields.title]}
-          secondaryText={talk[CONFIG.fields.name]}
+          secondaryText={talk[CONFIG.fields.firstname]+' '+talk[CONFIG.fields.lastname]+' ('+talk[CONFIG.fields.from]+')'}
           rightIcon={<span>{talk.note}</span>}
           leftAvatar={this.getFormat(talk.formats)}
         />

@@ -5,7 +5,7 @@ import { shallow } from "enzyme";
 import renderer from "react-test-renderer";
 import NotesView from "./NotesView";
 
-const othersNote = [["alex", 0], ["frank", 0], ["amanda", 1]];
+const othersNote = [["boris", 0], ["frank", 0], ["amanda", 1]];
 
 describe("NotesView component", () => {
   it("should renders correctly", () => {
@@ -20,7 +20,7 @@ describe("NotesView component", () => {
         voteOpen={true}
         vote={vote}
         othersNote={othersNote}
-        ownName="Alex"
+        ownName="Boris"
         ownNote={0}
       />
     );
@@ -38,7 +38,7 @@ describe("NotesView component", () => {
         vote={vote}
         othersNote={othersNote}
         ownName={null}
-        myProfileName="Alex"
+        myProfileName="Boris"
         ownNote={0}
       />
     );
@@ -56,7 +56,7 @@ describe("NotesView component", () => {
         vote={vote}
         othersNote={[["test", undefined]]}
         ownName={null}
-        myProfileName="Alex"
+        myProfileName="Boris"
         ownNote={0}
       />
     );

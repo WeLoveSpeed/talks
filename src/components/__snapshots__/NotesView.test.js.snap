@@ -473,7 +473,7 @@ ShallowWrapper {
         <SelectField
             autoWidth={false}
             disabled={false}
-            floatingLabelText="Ma note (Alex)"
+            floatingLabelText="Ma note (Boris)"
             fullWidth={false}
             id="ownNote"
             onChange={[Function]}
@@ -586,7 +586,7 @@ ShallowWrapper {
                 striped={false}>
                 <TableRowColumn
                     hoverable={false}>
-                    alex
+                    boris
                 </TableRowColumn>
                 <TableRowColumn
                     hoverable={false} />
@@ -648,7 +648,7 @@ ShallowWrapper {
             <SelectField
                   autoWidth={false}
                   disabled={false}
-                  floatingLabelText="Ma note (Alex)"
+                  floatingLabelText="Ma note (Boris)"
                   fullWidth={false}
                   id="ownNote"
                   onChange={[Function]}
@@ -761,7 +761,7 @@ ShallowWrapper {
                         striped={false}>
                         <TableRowColumn
                               hoverable={false}>
-                              alex
+                              boris
                         </TableRowColumn>
                         <TableRowColumn
                               hoverable={false} />
@@ -810,7 +810,7 @@ ShallowWrapper {
         othersNote={
                 Array [
                         Array [
-                          "alex",
+                          "boris",
                           0,
                         ],
                         Array [
@@ -823,7 +823,7 @@ ShallowWrapper {
                         ],
                       ]
         }
-        ownName="Alex"
+        ownName="Boris"
         ownNote={0}
         vote={[Function]}
         voteOpen={true} />,
@@ -838,7 +838,7 @@ ShallowWrapper {
         "props": Object {
           "othersNote": Array [
             Array [
-              "alex",
+              "boris",
               0,
             ],
             Array [
@@ -850,7 +850,7 @@ ShallowWrapper {
               1,
             ],
           ],
-          "ownName": "Alex",
+          "ownName": "Boris",
           "ownNote": 0,
           "vote": [Function],
           "voteOpen": true,
@@ -901,7 +901,7 @@ ShallowWrapper {
                     <SelectField
                               autoWidth={false}
                               disabled={false}
-                              floatingLabelText="Ma note (Alex)"
+                              floatingLabelText="Ma note (Boris)"
                               fullWidth={false}
                               id="ownNote"
                               onChange={[Function]}
@@ -1014,7 +1014,7 @@ ShallowWrapper {
                                         striped={false}>
                                         <TableRowColumn
                                                   hoverable={false}>
-                                                  alex
+                                                  boris
                                         </TableRowColumn>
                                         <TableRowColumn
                                                   hoverable={false} />
@@ -1076,7 +1076,7 @@ ShallowWrapper {
                     <SelectField
                               autoWidth={false}
                               disabled={false}
-                              floatingLabelText="Ma note (Alex)"
+                              floatingLabelText="Ma note (Boris)"
                               fullWidth={false}
                               id="ownNote"
                               onChange={[Function]}
@@ -1189,7 +1189,7 @@ ShallowWrapper {
                                         striped={false}>
                                         <TableRowColumn
                                                   hoverable={false}>
-                                                  alex
+                                                  boris
                                         </TableRowColumn>
                                         <TableRowColumn
                                                   hoverable={false} />
@@ -1242,7 +1242,7 @@ ShallowWrapper {
     othersNote={
         Array [
             Array [
-              "alex",
+              "boris",
               0,
             ],
             Array [
@@ -1255,7 +1255,7 @@ ShallowWrapper {
             ],
           ]
     }
-    ownName="Alex"
+    ownName="Boris"
     ownNote={0}
     vote={[Function]}
     voteOpen={true} />,
@@ -1300,7 +1300,7 @@ ShallowWrapper {
             <TableRowColumn
                 hoverable={false}>
                 Ton nom (
-                Alex
+                Boris
                 ) n\'est pas dans la liste des votants.
             </TableRowColumn>
             <TableRowColumn
@@ -1394,7 +1394,7 @@ ShallowWrapper {
                   <TableRowColumn
                         hoverable={false}>
                         Ton nom (
-                        Alex
+                        Boris
                         ) n\'est pas dans la liste des votants.
                   </TableRowColumn>
                   <TableRowColumn
@@ -1465,7 +1465,7 @@ ShallowWrapper {
       "_compositeType": 0,
       "_context": Object {},
       "_currentElement": <NotesView
-        myProfileName="Alex"
+        myProfileName="Boris"
         othersNote={
                 Array [
                         Array [
@@ -1487,7 +1487,7 @@ ShallowWrapper {
         "handleNestedListToggle": [Function],
         "handleNoteChange": [Function],
         "props": Object {
-          "myProfileName": "Alex",
+          "myProfileName": "Boris",
           "othersNote": Array [
             Array [
               "test",
@@ -1552,7 +1552,7 @@ ShallowWrapper {
                               <TableRowColumn
                                         hoverable={false}>
                                         Ton nom (
-                                        Alex
+                                        Boris
                                         ) n\'est pas dans la liste des votants.
                               </TableRowColumn>
                               <TableRowColumn
@@ -1646,7 +1646,7 @@ ShallowWrapper {
                               <TableRowColumn
                                         hoverable={false}>
                                         Ton nom (
-                                        Alex
+                                        Boris
                                         ) n\'est pas dans la liste des votants.
                               </TableRowColumn>
                               <TableRowColumn
@@ -1721,7 +1721,7 @@ ShallowWrapper {
   },
   "root": [Circular],
   "unrendered": <NotesView
-    myProfileName="Alex"
+    myProfileName="Boris"
     othersNote={
         Array [
             Array [
@@ -1775,7 +1775,7 @@ ShallowWrapper {
             <TableRowColumn
                 hoverable={false}>
                 Ton nom (
-                Alex
+                Boris
                 ) n\'est pas dans la liste des votants.
             </TableRowColumn>
             <TableRowColumn
@@ -1843,7 +1843,7 @@ ShallowWrapper {
                 striped={false}>
                 <TableRowColumn
                     hoverable={false}>
-                    alex
+                    boris
                 </TableRowColumn>
                 <TableRowColumn
                     hoverable={false} />
@@ -1912,7 +1912,7 @@ ShallowWrapper {
                   <TableRowColumn
                         hoverable={false}>
                         Ton nom (
-                        Alex
+                        Boris
                         ) n\'est pas dans la liste des votants.
                   </TableRowColumn>
                   <TableRowColumn
@@ -1980,7 +1980,7 @@ ShallowWrapper {
                         striped={false}>
                         <TableRowColumn
                               hoverable={false}>
-                              alex
+                              boris
                         </TableRowColumn>
                         <TableRowColumn
                               hoverable={false} />
@@ -2026,11 +2026,11 @@ ShallowWrapper {
       "_compositeType": 0,
       "_context": Object {},
       "_currentElement": <NotesView
-        myProfileName="Alex"
+        myProfileName="Boris"
         othersNote={
                 Array [
                         Array [
-                          "alex",
+                          "boris",
                           0,
                         ],
                         Array [
@@ -2056,10 +2056,10 @@ ShallowWrapper {
         "handleNestedListToggle": [Function],
         "handleNoteChange": [Function],
         "props": Object {
-          "myProfileName": "Alex",
+          "myProfileName": "Boris",
           "othersNote": Array [
             Array [
-              "alex",
+              "boris",
               0,
             ],
             Array [
@@ -2129,7 +2129,7 @@ ShallowWrapper {
                               <TableRowColumn
                                         hoverable={false}>
                                         Ton nom (
-                                        Alex
+                                        Boris
                                         ) n\'est pas dans la liste des votants.
                               </TableRowColumn>
                               <TableRowColumn
@@ -2197,7 +2197,7 @@ ShallowWrapper {
                                         striped={false}>
                                         <TableRowColumn
                                                   hoverable={false}>
-                                                  alex
+                                                  boris
                                         </TableRowColumn>
                                         <TableRowColumn
                                                   hoverable={false} />
@@ -2266,7 +2266,7 @@ ShallowWrapper {
                               <TableRowColumn
                                         hoverable={false}>
                                         Ton nom (
-                                        Alex
+                                        Boris
                                         ) n\'est pas dans la liste des votants.
                               </TableRowColumn>
                               <TableRowColumn
@@ -2334,7 +2334,7 @@ ShallowWrapper {
                                         striped={false}>
                                         <TableRowColumn
                                                   hoverable={false}>
-                                                  alex
+                                                  boris
                                         </TableRowColumn>
                                         <TableRowColumn
                                                   hoverable={false} />
@@ -2384,11 +2384,11 @@ ShallowWrapper {
   },
   "root": [Circular],
   "unrendered": <NotesView
-    myProfileName="Alex"
+    myProfileName="Boris"
     othersNote={
         Array [
             Array [
-              "alex",
+              "boris",
               0,
             ],
             Array [

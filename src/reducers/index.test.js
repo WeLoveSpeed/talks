@@ -63,18 +63,18 @@ describe("rootReducer", () => {
       loader: false,
       notes: null,
       ownName: null,
-      profile: { name: "alex" }
+      profile: { name: "boris" }
     };
     const expectedState = {
       loader: false,
-      notes: [{ values: { alex: 0 }, total: 0 }],
-      ownName: "alex",
-      profile: { name: "alex" }
+      notes: [{ values: { boris: 0 }, total: 0 }],
+      ownName: "boris",
+      profile: { name: "boris" }
     };
 
     const testAction = {
       type: FETCHED_NOTES,
-      notes: [{ values: { alex: 0 }, total: 0 }]
+      notes: [{ values: { boris: 0 }, total: 0 }]
     };
     expect(rootReducer(baseState, testAction)).toEqual(expectedState);
   });

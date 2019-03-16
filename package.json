@@ -1,7 +1,7 @@
 {
   "name": "talks-react",
   "version": "0.4.2",
-  "homepage": "https://sudweb-talks.netlify.com/",
+  "homepage": "https://wls-talks.netlify.com/",
   "private": true,
   "devDependencies": {
     "autoprefixer": "^6.7.3",

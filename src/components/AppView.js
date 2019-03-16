@@ -10,7 +10,7 @@ import AppBar from "material-ui/AppBar";
 import getMuiTheme from "material-ui/styles/getMuiTheme";
 import Drawer from "material-ui/Drawer";
 import CircularProgress from "material-ui/CircularProgress";
-import { lightGreen500 } from "material-ui/styles/colors";
+import { red500 } from "material-ui/styles/colors";
 import RaisedButton from "material-ui/RaisedButton";
 
 // Needed for onTouchTap
@@ -40,7 +40,7 @@ class AppView extends Component {
   getErrors() {
     const { errorMessage } = this.props;
     if (errorMessage !== null) {
-      return <p style={{ color: lightGreen500 }}>{errorMessage}</p>;
+      return <p style={{ color: red500 }}>{errorMessage}</p>;
     }
     return null;
   }
@@ -80,7 +80,7 @@ class AppView extends Component {
     if (loader) {
       return (
         <div className="loading">
-          <CircularProgress color={lightGreen500} size={80} thickness={5} />
+          <CircularProgress color={red500} size={80} thickness={5} />
         </div>
       );
     }
@@ -92,7 +92,7 @@ class AppView extends Component {
           <RaisedButton
             onClick={() => this.props.requestAuth()}
             label="Se connecter sur Google Drive"
-            backgroundColor={lightGreen500}
+            backgroundColor={red500}
             labelColor="white"
           />
         </main>
@@ -130,8 +130,8 @@ class AppView extends Component {
         <div className="container">
           <AppBar
             onLeftIconButtonTouchTap={() => this.toggleDrawer()}
-            style={{ backgroundColor: lightGreen500 }}
-            title={<h1>Propositions de sujets Sud Web</h1>}
+            style={{ backgroundColor: red500 }}
+            title={<h1>Propositions de sujets We Love Speed</h1>}
             iconElementRight={this.getProfile()}
             iconStyleRight={{ margin: 0 }}
           />

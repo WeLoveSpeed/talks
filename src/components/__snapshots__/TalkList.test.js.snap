@@ -72,7 +72,7 @@ ShallowWrapper {
             primaryText={undefined}
             primaryTogglesNestedList={false}
             rightIcon={<span />}
-            secondaryText={undefined}
+            secondaryText="undefined undefined (undefined)"
             secondaryTextLines={1}
             value={0} />
         <ListItem
@@ -101,7 +101,7 @@ ShallowWrapper {
             primaryText={undefined}
             primaryTogglesNestedList={false}
             rightIcon={<span />}
-            secondaryText={undefined}
+            secondaryText="undefined undefined (undefined)"
             secondaryTextLines={1}
             value={1} />
         <ListItem
@@ -124,7 +124,7 @@ ShallowWrapper {
             primaryText={undefined}
             primaryTogglesNestedList={false}
             rightIcon={<span />}
-            secondaryText={undefined}
+            secondaryText="undefined undefined (undefined)"
             secondaryTextLines={1}
             value={2} />
     </SelectableList>
@@ -196,7 +196,7 @@ ShallowWrapper {
                   primaryText={undefined}
                   primaryTogglesNestedList={false}
                   rightIcon={<span />}
-                  secondaryText={undefined}
+                  secondaryText="undefined undefined (undefined)"
                   secondaryTextLines={1}
                   value={0} />
             <ListItem
@@ -225,7 +225,7 @@ ShallowWrapper {
                   primaryText={undefined}
                   primaryTogglesNestedList={false}
                   rightIcon={<span />}
-                  secondaryText={undefined}
+                  secondaryText="undefined undefined (undefined)"
                   secondaryTextLines={1}
                   value={1} />
             <ListItem
@@ -248,7 +248,7 @@ ShallowWrapper {
                   primaryText={undefined}
                   primaryTogglesNestedList={false}
                   rightIcon={<span />}
-                  secondaryText={undefined}
+                  secondaryText="undefined undefined (undefined)"
                   secondaryTextLines={1}
                   value={2} />
       </SelectableList>
@@ -303,16 +303,16 @@ ShallowWrapper {
                 Array [
                         Object {
                           "formats": "Lightning Talk : 5 minutes",
-                          "prenom_et_nom": "Alexandra Janin",
+                          "prenom_et_nom": "Boris Schapira",
                           "titre_de_ta_presentation": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, esse.",
                         },
                         Object {
                           "formats": "Pecha Kucha : 20 images x 20 secondes",
-                          "prenom_et_nom": "Alexandra Janin",
+                          "prenom_et_nom": "Boris Schapira",
                           "titre_de_ta_presentation": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, esse.",
                         },
                         Object {
-                          "prenom_et_nom": "Alexandra Janin",
+                          "prenom_et_nom": "Boris Schapira",
                           "titre_de_ta_presentation": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, esse.",
                         },
                       ]
@@ -361,16 +361,16 @@ ShallowWrapper {
           "talks": Array [
             Object {
               "formats": "Lightning Talk : 5 minutes",
-              "prenom_et_nom": "Alexandra Janin",
+              "prenom_et_nom": "Boris Schapira",
               "titre_de_ta_presentation": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, esse.",
             },
             Object {
               "formats": "Pecha Kucha : 20 images x 20 secondes",
-              "prenom_et_nom": "Alexandra Janin",
+              "prenom_et_nom": "Boris Schapira",
               "titre_de_ta_presentation": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, esse.",
             },
             Object {
-              "prenom_et_nom": "Alexandra Janin",
+              "prenom_et_nom": "Boris Schapira",
               "titre_de_ta_presentation": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, esse.",
             },
           ],
@@ -461,7 +461,7 @@ ShallowWrapper {
                               primaryText={undefined}
                               primaryTogglesNestedList={false}
                               rightIcon={<span />}
-                              secondaryText={undefined}
+                              secondaryText="undefined undefined (undefined)"
                               secondaryTextLines={1}
                               value={0} />
                     <ListItem
@@ -490,7 +490,7 @@ ShallowWrapper {
                               primaryText={undefined}
                               primaryTogglesNestedList={false}
                               rightIcon={<span />}
-                              secondaryText={undefined}
+                              secondaryText="undefined undefined (undefined)"
                               secondaryTextLines={1}
                               value={1} />
                     <ListItem
@@ -513,7 +513,7 @@ ShallowWrapper {
                               primaryText={undefined}
                               primaryTogglesNestedList={false}
                               rightIcon={<span />}
-                              secondaryText={undefined}
+                              secondaryText="undefined undefined (undefined)"
                               secondaryTextLines={1}
                               value={2} />
           </SelectableList>
@@ -585,7 +585,7 @@ ShallowWrapper {
                               primaryText={undefined}
                               primaryTogglesNestedList={false}
                               rightIcon={<span />}
-                              secondaryText={undefined}
+                              secondaryText="undefined undefined (undefined)"
                               secondaryTextLines={1}
                               value={0} />
                     <ListItem
@@ -614,7 +614,7 @@ ShallowWrapper {
                               primaryText={undefined}
                               primaryTogglesNestedList={false}
                               rightIcon={<span />}
-                              secondaryText={undefined}
+                              secondaryText="undefined undefined (undefined)"
                               secondaryTextLines={1}
                               value={1} />
                     <ListItem
@@ -637,7 +637,7 @@ ShallowWrapper {
                               primaryText={undefined}
                               primaryTogglesNestedList={false}
                               rightIcon={<span />}
-                              secondaryText={undefined}
+                              secondaryText="undefined undefined (undefined)"
                               secondaryTextLines={1}
                               value={2} />
           </SelectableList>
@@ -696,16 +696,16 @@ ShallowWrapper {
         Array [
             Object {
               "formats": "Lightning Talk : 5 minutes",
-              "prenom_et_nom": "Alexandra Janin",
+              "prenom_et_nom": "Boris Schapira",
               "titre_de_ta_presentation": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, esse.",
             },
             Object {
               "formats": "Pecha Kucha : 20 images x 20 secondes",
-              "prenom_et_nom": "Alexandra Janin",
+              "prenom_et_nom": "Boris Schapira",
               "titre_de_ta_presentation": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, esse.",
             },
             Object {
-              "prenom_et_nom": "Alexandra Janin",
+              "prenom_et_nom": "Boris Schapira",
               "titre_de_ta_presentation": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, esse.",
             },
           ]

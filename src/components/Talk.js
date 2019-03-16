@@ -7,7 +7,7 @@ import { List, ListItem } from "material-ui/List";
 import Avatar from "material-ui/Avatar";
 import CommunicationEmail from "material-ui/svg-icons/communication/email";
 import {
-  lightGreen500,
+  red500,
   lightBlack,
   orange500,
   teal500
@@ -22,7 +22,7 @@ import Notes from "../containers/Notes";
 class Talk extends Component {
   getDate(date) {
     console.log(date);
-    
+
     return moment(date, "DD/MM/YYYY").format("DD/MM/YYYY");
   }
 
@@ -38,10 +38,14 @@ class Talk extends Component {
     return paragraphs.map((p, key) => <p key={key}>{p}</p>);
   }
 
-  getAvatar(email) {
-    const hash = md5(email.toLowerCase());
-    if (email) {
-      return <Avatar src={`https://www.gravatar.com/avatar/${hash}`} />;
+  getAvatar(profile_url, email) {
+    if (!!profile_url || CONFIG.fields.profile_url !== " ") {
+      return <Avatar src={profile_url} />
+    } else {
+      const hash = md5(email.toLowerCase());
+      if (email) {
+        return <Avatar src={`https://www.gravatar.com/avatar/${hash}`} />;
+      }
     }
 
     return null;
@@ -52,33 +56,33 @@ class Talk extends Component {
   }
 
   getProfile(talk) {
-    if (!talk.email || talk.email === " ") {
+    if (!talk[CONFIG.fields.email] || talk[CONFIG.fields.email] === " ") {
       return (
         <ListItem
           disabled={true}
           primaryText={
             (
               <span>
-                {talk[CONFIG.fields.name]}
+                {talk[CONFIG.fields.firstname]} {talk[CONFIG.fields.lastname]}
                 <span style={{ color: lightBlack }}>
                   , le {this.getDate(talk[CONFIG.fields.timestamp])}
                 </span>
               </span>
             )
           }
-          leftAvatar={this.getAvatar(talk.email)}
+          leftAvatar={this.getAvatar(talk[CONFIG.fields.profile_url], talk[CONFIG.fields.email])}
         />
       );
     }
 
     const iconButtonElement = (
       <IconButton
-        onClick={() => this.sendMail(talk.email)}
+        onClick={() => this.sendMail(talk[CONFIG.fields.email])}
         touch={true}
         tooltipPosition="top-right"
         style={{ padding: 0, width: 32 }}
       >
-        <CommunicationEmail color={lightGreen500} />
+        <CommunicationEmail color={red500} />
       </IconButton>
     );
 
@@ -88,15 +92,15 @@ class Talk extends Component {
         primaryText={
           (
             <span>
-              {talk[CONFIG.fields.name]}
+              {talk[CONFIG.fields.firstname]+' '+talk[CONFIG.fields.lastname]}
               <span style={{ color: lightBlack }}>
                 , le {this.getDate(talk[CONFIG.fields.timestamp])}
               </span>
             </span>
           )
         }
-        secondaryText={talk.email}
-        leftAvatar={this.getAvatar(talk.email)}
+        secondaryText={talk[CONFIG.fields.email]}
+        leftAvatar={this.getAvatar(talk[CONFIG.fields.profile_url], talk[CONFIG.fields.email])}
         rightIcon={iconButtonElement}
       />
     );
@@ -125,16 +129,13 @@ class Talk extends Component {
             {this.getProfile(talk)}
           </List>
           <Divider />
-          <h3>Description</h3>
+          
+          <h3>{talk[CONFIG.fields.type]} ({talk[CONFIG.fields.format]})</h3>
           {this.getText(talk[CONFIG.fields.description])}
 
-          <h3>Durée de ton intervention</h3>
-          {this.getText(
-            talk.duree_de_ton_intervention
-          )}
+          <h3>Message pour l'équipe</h3>
+          {this.getText(talk[CONFIG.fields.message])}
 
-          <h3>As-tu besoin d’aide concernant ta venue, ta proposition ou n’importe quel autre aspect de ce Sud Web (ça ne sera pas publié sur le site) ?</h3>
-          {this.getText(talk.as_tu_besoin_daide_concernant_ta_venue_ta_proposition_ou_nimporte_quel_autre_aspect_de_ce_sud_web_ca_ne_sera_pas_publie_sur_le_site)}
         </div>
       </section>
     );

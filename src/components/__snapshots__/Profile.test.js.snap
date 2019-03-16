@@ -108,7 +108,7 @@ ShallowWrapper {
     onTouchEnd={[Function]}
     onTouchStart={[Function]}
     open={null}
-    primaryText="Alex"
+    primaryText="Boris"
     primaryTogglesNestedList={false}
     rightIconButton={
         <IconMenu
@@ -202,7 +202,7 @@ ShallowWrapper {
       onTouchEnd={[Function]}
       onTouchStart={[Function]}
       open={null}
-      primaryText="Alex"
+      primaryText="Boris"
       primaryTogglesNestedList={false}
       rightIconButton={
             <IconMenu
@@ -272,7 +272,7 @@ ShallowWrapper {
         profile={
                 Object {
                         "email": "test@test.com",
-                        "name": "Alex",
+                        "name": "Boris",
                       }
         }
         signout={[Function]} />,
@@ -285,7 +285,7 @@ ShallowWrapper {
         "props": Object {
           "profile": Object {
             "email": "test@test.com",
-            "name": "Alex",
+            "name": "Boris",
           },
           "signout": [Function],
         },
@@ -343,7 +343,7 @@ ShallowWrapper {
           onTouchEnd={[Function]}
           onTouchStart={[Function]}
           open={null}
-          primaryText="Alex"
+          primaryText="Boris"
           primaryTogglesNestedList={false}
           rightIconButton={
                     <IconMenu
@@ -437,7 +437,7 @@ ShallowWrapper {
           onTouchEnd={[Function]}
           onTouchStart={[Function]}
           open={null}
-          primaryText="Alex"
+          primaryText="Boris"
           primaryTogglesNestedList={false}
           rightIconButton={
                     <IconMenu
@@ -511,7 +511,7 @@ ShallowWrapper {
     profile={
         Object {
             "email": "test@test.com",
-            "name": "Alex",
+            "name": "Boris",
           }
     }
     signout={[Function]} />,

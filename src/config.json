@@ -1,16 +1,24 @@
 {
-    "API_KEY": "AIzaSyBhmmqWm4QLsQH2dnTaQNOoSGLq_IlweBY",
-    "CLIENT_ID": "460329070283-8j9kmv5hucpqh2qv2aeirupk7ddg31si.apps.googleusercontent.com",
-    "SPREADSHEET_ID": "15N2RYUVitQuzArqSInAcUgf9FMwRwH_rdiBLt5K_fLw",
+    "CLIENT_ID": "58701413598-k8o62h8hqkhdgh1ku0c3476kc2v4p6t2.apps.googleusercontent.com",
+    "SPREADSHEET_ID": "1AjbdFcj2aebJ_lExkBryB-SC3O7ht8RHq7BL_1aw_LQ",
     "SCOPES": [
         "https://www.googleapis.com/auth/spreadsheets",
         "https://www.googleapis.com/auth/plus.login"
     ],
     "maxRow": 70,
     "fields": {
-        "name": "comment_tappeler_et_pronom_si_necessaire",
-        "title": "titre_de_ta_proposition",
-        "description": "ce_que_tu_souhaites_transmettre",
-        "timestamp": "horodateur"
+        "firstname": "prenom_first_name",
+        "lastname": "nom_last_name",
+        "email": "courriel_e_mail",
+        "title": "titre_title",
+        "description": "description",
+        "url": "url_de_profil_principal_main_profile_url",
+        "profile_url": "url_dune_photo_de_vous_profile_picture_url",
+        "timestamp": "horodateur",
+        "format": "duree_duration",
+        "type": "type_dintervention_talk_level",
+        "lang": "langue_language",
+        "message": "un_message_a_laisser_a_lequipe_organisatrice_do_you_have_a_message_for_the_organizing_team",
+        "from": "where_will_you_come_from"
     }
 }

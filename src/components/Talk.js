@@ -133,7 +133,7 @@ class Talk extends Component {
           <h3>{talk[CONFIG.fields.type]} ({talk[CONFIG.fields.format]})</h3>
           {this.getText(talk[CONFIG.fields.description])}
 
-          <h3>Message pour l'équipe</h3>
+          <h3>Message pour l'équipe / Message for the team</h3>
           {this.getText(talk[CONFIG.fields.message])}
 
         </div>

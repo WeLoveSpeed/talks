@@ -103,7 +103,7 @@ ShallowWrapper {
             Ceci est la description.
         </p>
         <h3>
-            Message pour l'équipe
+            Message pour l'équipe / Message for the team
         </h3>
         <p>
             Ceci est le message.
@@ -208,7 +208,7 @@ ShallowWrapper {
                   Ceci est la description.
             </p>
             <h3>
-                  Message pour l'équipe
+                  Message pour l'équipe / Message for the team
             </h3>
             <p>
                   Ceci est le message.
@@ -380,7 +380,7 @@ ShallowWrapper {
                               Ceci est la description.
                     </p>
                     <h3>
-                              Message pour l'équipe
+                              Message pour l'équipe / Message for the team
                     </h3>
                     <p>
                               Ceci est le message.
@@ -485,7 +485,7 @@ ShallowWrapper {
                               Ceci est la description.
                     </p>
                     <h3>
-                              Message pour l'équipe
+                              Message pour l'équipe / Message for the team
                     </h3>
                     <p>
                               Ceci est le message.

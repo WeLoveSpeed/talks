@@ -131,7 +131,7 @@ class AppView extends Component {
           <AppBar
             onLeftIconButtonTouchTap={() => this.toggleDrawer()}
             style={{ backgroundColor: red500 }}
-            title={<h1>Propositions de sujets We Love Speed</h1>}
+            title={<h1>Propositions de sujets We Love Speed (<a href="https://docs.google.com/spreadsheets/d/1AjbdFcj2aebJ_lExkBryB-SC3O7ht8RHq7BL_1aw_LQ/edit#gid=237957982" target="_blank">sheet</a>)</h1>}
             iconElementRight={this.getProfile()}
             iconStyleRight={{ margin: 0 }}
           />

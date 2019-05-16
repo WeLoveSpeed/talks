@@ -64,11 +64,13 @@ class NotesView extends Component {
         value={this.state.ownNote}
         onChange={this.handleNoteChange}
       >
-        <MenuItem value={-2} primaryText="Exclusion (-2)" />
-        <MenuItem value={-1} primaryText="Désaprobation (-1)" />
-        <MenuItem value={0} primaryText="Neutre (0)" />
-        <MenuItem value={1} primaryText="Approbation (1)" />
-        <MenuItem value={2} primaryText="Sélection (2)" />
+        <MenuItem value={-5} primaryText="SNIP SNIP (-5)" />
+        <MenuItem value={-2} primaryText="Plutôt non (-2)" />
+        <MenuItem value={-1} primaryText="Bof (-1)" />
+        <MenuItem value={0} primaryText="Pas de vote (0)" />
+        <MenuItem value={1} primaryText="Ok (1)" />
+        <MenuItem value={2} primaryText="Intéressant (2)" />
+        <MenuItem value={5} primaryText="DO WANT! (5)" />
       </SelectField>
     );
   }

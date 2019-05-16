@@ -45,7 +45,15 @@ ShallowWrapper {
                 disabled={false}
                 focusState="none"
                 insetChildren={false}
-                primaryText="Exclusion (-2)"
+                primaryText="SNIP SNIP (-5)"
+                value={-5} />
+            <MenuItem
+                checked={false}
+                desktop={false}
+                disabled={false}
+                focusState="none"
+                insetChildren={false}
+                primaryText="Plutôt non (-2)"
                 value={-2} />
             <MenuItem
                 checked={false}
@@ -53,7 +61,7 @@ ShallowWrapper {
                 disabled={false}
                 focusState="none"
                 insetChildren={false}
-                primaryText="Désaprobation (-1)"
+                primaryText="Bof (-1)"
                 value={-1} />
             <MenuItem
                 checked={false}
@@ -61,7 +69,7 @@ ShallowWrapper {
                 disabled={false}
                 focusState="none"
                 insetChildren={false}
-                primaryText="Neutre (0)"
+                primaryText="Pas de vote (0)"
                 value={0} />
             <MenuItem
                 checked={false}
@@ -69,7 +77,7 @@ ShallowWrapper {
                 disabled={false}
                 focusState="none"
                 insetChildren={false}
-                primaryText="Approbation (1)"
+                primaryText="Ok (1)"
                 value={1} />
             <MenuItem
                 checked={false}
@@ -77,8 +85,16 @@ ShallowWrapper {
                 disabled={false}
                 focusState="none"
                 insetChildren={false}
-                primaryText="Sélection (2)"
+                primaryText="Intéressant (2)"
                 value={2} />
+            <MenuItem
+                checked={false}
+                desktop={false}
+                disabled={false}
+                focusState="none"
+                insetChildren={false}
+                primaryText="DO WANT! (5)"
+                value={5} />
         </SelectField>
         <IconButton
             disableTouchRipple={false}
@@ -139,7 +155,15 @@ ShallowWrapper {
                         disabled={false}
                         focusState="none"
                         insetChildren={false}
-                        primaryText="Exclusion (-2)"
+                        primaryText="SNIP SNIP (-5)"
+                        value={-5} />
+                  <MenuItem
+                        checked={false}
+                        desktop={false}
+                        disabled={false}
+                        focusState="none"
+                        insetChildren={false}
+                        primaryText="Plutôt non (-2)"
                         value={-2} />
                   <MenuItem
                         checked={false}
@@ -147,7 +171,7 @@ ShallowWrapper {
                         disabled={false}
                         focusState="none"
                         insetChildren={false}
-                        primaryText="Désaprobation (-1)"
+                        primaryText="Bof (-1)"
                         value={-1} />
                   <MenuItem
                         checked={false}
@@ -155,7 +179,7 @@ ShallowWrapper {
                         disabled={false}
                         focusState="none"
                         insetChildren={false}
-                        primaryText="Neutre (0)"
+                        primaryText="Pas de vote (0)"
                         value={0} />
                   <MenuItem
                         checked={false}
@@ -163,7 +187,7 @@ ShallowWrapper {
                         disabled={false}
                         focusState="none"
                         insetChildren={false}
-                        primaryText="Approbation (1)"
+                        primaryText="Ok (1)"
                         value={1} />
                   <MenuItem
                         checked={false}
@@ -171,8 +195,16 @@ ShallowWrapper {
                         disabled={false}
                         focusState="none"
                         insetChildren={false}
-                        primaryText="Sélection (2)"
+                        primaryText="Intéressant (2)"
                         value={2} />
+                  <MenuItem
+                        checked={false}
+                        desktop={false}
+                        disabled={false}
+                        focusState="none"
+                        insetChildren={false}
+                        primaryText="DO WANT! (5)"
+                        value={5} />
             </SelectField>
             <IconButton
                   disableTouchRipple={false}
@@ -277,7 +309,15 @@ ShallowWrapper {
                                         disabled={false}
                                         focusState="none"
                                         insetChildren={false}
-                                        primaryText="Exclusion (-2)"
+                                        primaryText="SNIP SNIP (-5)"
+                                        value={-5} />
+                              <MenuItem
+                                        checked={false}
+                                        desktop={false}
+                                        disabled={false}
+                                        focusState="none"
+                                        insetChildren={false}
+                                        primaryText="Plutôt non (-2)"
                                         value={-2} />
                               <MenuItem
                                         checked={false}
@@ -285,7 +325,7 @@ ShallowWrapper {
                                         disabled={false}
                                         focusState="none"
                                         insetChildren={false}
-                                        primaryText="Désaprobation (-1)"
+                                        primaryText="Bof (-1)"
                                         value={-1} />
                               <MenuItem
                                         checked={false}
@@ -293,7 +333,7 @@ ShallowWrapper {
                                         disabled={false}
                                         focusState="none"
                                         insetChildren={false}
-                                        primaryText="Neutre (0)"
+                                        primaryText="Pas de vote (0)"
                                         value={0} />
                               <MenuItem
                                         checked={false}
@@ -301,7 +341,7 @@ ShallowWrapper {
                                         disabled={false}
                                         focusState="none"
                                         insetChildren={false}
-                                        primaryText="Approbation (1)"
+                                        primaryText="Ok (1)"
                                         value={1} />
                               <MenuItem
                                         checked={false}
@@ -309,8 +349,16 @@ ShallowWrapper {
                                         disabled={false}
                                         focusState="none"
                                         insetChildren={false}
-                                        primaryText="Sélection (2)"
+                                        primaryText="Intéressant (2)"
                                         value={2} />
+                              <MenuItem
+                                        checked={false}
+                                        desktop={false}
+                                        disabled={false}
+                                        focusState="none"
+                                        insetChildren={false}
+                                        primaryText="DO WANT! (5)"
+                                        value={5} />
                     </SelectField>
                     <IconButton
                               disableTouchRipple={false}
@@ -371,7 +419,15 @@ ShallowWrapper {
                                         disabled={false}
                                         focusState="none"
                                         insetChildren={false}
-                                        primaryText="Exclusion (-2)"
+                                        primaryText="SNIP SNIP (-5)"
+                                        value={-5} />
+                              <MenuItem
+                                        checked={false}
+                                        desktop={false}
+                                        disabled={false}
+                                        focusState="none"
+                                        insetChildren={false}
+                                        primaryText="Plutôt non (-2)"
                                         value={-2} />
                               <MenuItem
                                         checked={false}
@@ -379,7 +435,7 @@ ShallowWrapper {
                                         disabled={false}
                                         focusState="none"
                                         insetChildren={false}
-                                        primaryText="Désaprobation (-1)"
+                                        primaryText="Bof (-1)"
                                         value={-1} />
                               <MenuItem
                                         checked={false}
@@ -387,7 +443,7 @@ ShallowWrapper {
                                         disabled={false}
                                         focusState="none"
                                         insetChildren={false}
-                                        primaryText="Neutre (0)"
+                                        primaryText="Pas de vote (0)"
                                         value={0} />
                               <MenuItem
                                         checked={false}
@@ -395,7 +451,7 @@ ShallowWrapper {
                                         disabled={false}
                                         focusState="none"
                                         insetChildren={false}
-                                        primaryText="Approbation (1)"
+                                        primaryText="Ok (1)"
                                         value={1} />
                               <MenuItem
                                         checked={false}
@@ -403,8 +459,16 @@ ShallowWrapper {
                                         disabled={false}
                                         focusState="none"
                                         insetChildren={false}
-                                        primaryText="Sélection (2)"
+                                        primaryText="Intéressant (2)"
                                         value={2} />
+                              <MenuItem
+                                        checked={false}
+                                        desktop={false}
+                                        disabled={false}
+                                        focusState="none"
+                                        insetChildren={false}
+                                        primaryText="DO WANT! (5)"
+                                        value={5} />
                     </SelectField>
                     <IconButton
                               disableTouchRipple={false}
@@ -489,7 +553,15 @@ ShallowWrapper {
                 disabled={false}
                 focusState="none"
                 insetChildren={false}
-                primaryText="Exclusion (-2)"
+                primaryText="SNIP SNIP (-5)"
+                value={-5} />
+            <MenuItem
+                checked={false}
+                desktop={false}
+                disabled={false}
+                focusState="none"
+                insetChildren={false}
+                primaryText="Plutôt non (-2)"
                 value={-2} />
             <MenuItem
                 checked={false}
@@ -497,7 +569,7 @@ ShallowWrapper {
                 disabled={false}
                 focusState="none"
                 insetChildren={false}
-                primaryText="Désaprobation (-1)"
+                primaryText="Bof (-1)"
                 value={-1} />
             <MenuItem
                 checked={false}
@@ -505,7 +577,7 @@ ShallowWrapper {
                 disabled={false}
                 focusState="none"
                 insetChildren={false}
-                primaryText="Neutre (0)"
+                primaryText="Pas de vote (0)"
                 value={0} />
             <MenuItem
                 checked={false}
@@ -513,7 +585,7 @@ ShallowWrapper {
                 disabled={false}
                 focusState="none"
                 insetChildren={false}
-                primaryText="Approbation (1)"
+                primaryText="Ok (1)"
                 value={1} />
             <MenuItem
                 checked={false}
@@ -521,8 +593,16 @@ ShallowWrapper {
                 disabled={false}
                 focusState="none"
                 insetChildren={false}
-                primaryText="Sélection (2)"
+                primaryText="Intéressant (2)"
                 value={2} />
+            <MenuItem
+                checked={false}
+                desktop={false}
+                disabled={false}
+                focusState="none"
+                insetChildren={false}
+                primaryText="DO WANT! (5)"
+                value={5} />
         </SelectField>
         <IconButton
             disableTouchRipple={false}
@@ -664,7 +744,15 @@ ShallowWrapper {
                         disabled={false}
                         focusState="none"
                         insetChildren={false}
-                        primaryText="Exclusion (-2)"
+                        primaryText="SNIP SNIP (-5)"
+                        value={-5} />
+                  <MenuItem
+                        checked={false}
+                        desktop={false}
+                        disabled={false}
+                        focusState="none"
+                        insetChildren={false}
+                        primaryText="Plutôt non (-2)"
                         value={-2} />
                   <MenuItem
                         checked={false}
@@ -672,7 +760,7 @@ ShallowWrapper {
                         disabled={false}
                         focusState="none"
                         insetChildren={false}
-                        primaryText="Désaprobation (-1)"
+                        primaryText="Bof (-1)"
                         value={-1} />
                   <MenuItem
                         checked={false}
@@ -680,7 +768,7 @@ ShallowWrapper {
                         disabled={false}
                         focusState="none"
                         insetChildren={false}
-                        primaryText="Neutre (0)"
+                        primaryText="Pas de vote (0)"
                         value={0} />
                   <MenuItem
                         checked={false}
@@ -688,7 +776,7 @@ ShallowWrapper {
                         disabled={false}
                         focusState="none"
                         insetChildren={false}
-                        primaryText="Approbation (1)"
+                        primaryText="Ok (1)"
                         value={1} />
                   <MenuItem
                         checked={false}
@@ -696,8 +784,16 @@ ShallowWrapper {
                         disabled={false}
                         focusState="none"
                         insetChildren={false}
-                        primaryText="Sélection (2)"
+                        primaryText="Intéressant (2)"
                         value={2} />
+                  <MenuItem
+                        checked={false}
+                        desktop={false}
+                        disabled={false}
+                        focusState="none"
+                        insetChildren={false}
+                        primaryText="DO WANT! (5)"
+                        value={5} />
             </SelectField>
             <IconButton
                   disableTouchRipple={false}
@@ -917,7 +1013,15 @@ ShallowWrapper {
                                         disabled={false}
                                         focusState="none"
                                         insetChildren={false}
-                                        primaryText="Exclusion (-2)"
+                                        primaryText="SNIP SNIP (-5)"
+                                        value={-5} />
+                              <MenuItem
+                                        checked={false}
+                                        desktop={false}
+                                        disabled={false}
+                                        focusState="none"
+                                        insetChildren={false}
+                                        primaryText="Plutôt non (-2)"
                                         value={-2} />
                               <MenuItem
                                         checked={false}
@@ -925,7 +1029,7 @@ ShallowWrapper {
                                         disabled={false}
                                         focusState="none"
                                         insetChildren={false}
-                                        primaryText="Désaprobation (-1)"
+                                        primaryText="Bof (-1)"
                                         value={-1} />
                               <MenuItem
                                         checked={false}
@@ -933,7 +1037,7 @@ ShallowWrapper {
                                         disabled={false}
                                         focusState="none"
                                         insetChildren={false}
-                                        primaryText="Neutre (0)"
+                                        primaryText="Pas de vote (0)"
                                         value={0} />
                               <MenuItem
                                         checked={false}
@@ -941,7 +1045,7 @@ ShallowWrapper {
                                         disabled={false}
                                         focusState="none"
                                         insetChildren={false}
-                                        primaryText="Approbation (1)"
+                                        primaryText="Ok (1)"
                                         value={1} />
                               <MenuItem
                                         checked={false}
@@ -949,8 +1053,16 @@ ShallowWrapper {
                                         disabled={false}
                                         focusState="none"
                                         insetChildren={false}
-                                        primaryText="Sélection (2)"
+                                        primaryText="Intéressant (2)"
                                         value={2} />
+                              <MenuItem
+                                        checked={false}
+                                        desktop={false}
+                                        disabled={false}
+                                        focusState="none"
+                                        insetChildren={false}
+                                        primaryText="DO WANT! (5)"
+                                        value={5} />
                     </SelectField>
                     <IconButton
                               disableTouchRipple={false}
@@ -1092,7 +1204,15 @@ ShallowWrapper {
                                         disabled={false}
                                         focusState="none"
                                         insetChildren={false}
-                                        primaryText="Exclusion (-2)"
+                                        primaryText="SNIP SNIP (-5)"
+                                        value={-5} />
+                              <MenuItem
+                                        checked={false}
+                                        desktop={false}
+                                        disabled={false}
+                                        focusState="none"
+                                        insetChildren={false}
+                                        primaryText="Plutôt non (-2)"
                                         value={-2} />
                               <MenuItem
                                         checked={false}
@@ -1100,7 +1220,7 @@ ShallowWrapper {
                                         disabled={false}
                                         focusState="none"
                                         insetChildren={false}
-                                        primaryText="Désaprobation (-1)"
+                                        primaryText="Bof (-1)"
                                         value={-1} />
                               <MenuItem
                                         checked={false}
@@ -1108,7 +1228,7 @@ ShallowWrapper {
                                         disabled={false}
                                         focusState="none"
                                         insetChildren={false}
-                                        primaryText="Neutre (0)"
+                                        primaryText="Pas de vote (0)"
                                         value={0} />
                               <MenuItem
                                         checked={false}
@@ -1116,7 +1236,7 @@ ShallowWrapper {
                                         disabled={false}
                                         focusState="none"
                                         insetChildren={false}
-                                        primaryText="Approbation (1)"
+                                        primaryText="Ok (1)"
                                         value={1} />
                               <MenuItem
                                         checked={false}
@@ -1124,8 +1244,16 @@ ShallowWrapper {
                                         disabled={false}
                                         focusState="none"
                                         insetChildren={false}
-                                        primaryText="Sélection (2)"
+                                        primaryText="Intéressant (2)"
                                         value={2} />
+                              <MenuItem
+                                        checked={false}
+                                        desktop={false}
+                                        disabled={false}
+                                        focusState="none"
+                                        insetChildren={false}
+                                        primaryText="DO WANT! (5)"
+                                        value={5} />
                     </SelectField>
                     <IconButton
                               disableTouchRipple={false}

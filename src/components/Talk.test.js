@@ -9,6 +9,7 @@ const mockTalk = {
   courriel_e_mail: "test@test.com",
   titre_title: "Wesh, bien ou bien ?",
   description: "Ceci est la description.",
+  bio: "Ceci est la bio.",
   url_de_profil_principal_main_profile_url: "https://twitter.com/_welovespeed",
   url_dune_photo_de_vous_profile_picture_url: "https://pbs.twimg.com/profile_images/1049198944826417152/w4Vfcyja_400x400.jpg",
   horodateur: "12/03/2019 16:04:23",

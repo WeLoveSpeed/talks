@@ -99,7 +99,7 @@ class Talk extends Component {
             </span>
           )
         }
-        secondaryText={talk[CONFIG.fields.email]}
+        secondaryText={talk[CONFIG.fields.email]+ ' – ' + talk[CONFIG.fields.from]}
         leftAvatar={this.getAvatar(talk[CONFIG.fields.profile_url], talk[CONFIG.fields.email])}
         rightIcon={iconButtonElement}
       />
@@ -132,6 +132,9 @@ class Talk extends Component {
           
           <h3>{talk[CONFIG.fields.type]} ({talk[CONFIG.fields.format]})</h3>
           {this.getText(talk[CONFIG.fields.description])}
+
+          <h3>Bio</h3>
+          {this.getText(talk[CONFIG.fields.bio])}
 
           <h3>Message pour l'équipe / Message for the team</h3>
           {this.getText(talk[CONFIG.fields.message])}

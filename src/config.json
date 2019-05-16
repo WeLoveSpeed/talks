@@ -19,6 +19,7 @@
         "type": "type_dintervention_talk_level",
         "lang": "langue_language",
         "message": "un_message_a_laisser_a_lequipe_organisatrice_do_you_have_a_message_for_the_organizing_team",
-        "from": "where_will_you_come_from"
+        "from": "where_will_you_come_from",
+        "bio": "bio"
     }
 }

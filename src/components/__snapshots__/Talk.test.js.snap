@@ -88,7 +88,7 @@ ShallowWrapper {
                             color="#f44336" />
                     </IconButton>
                 }
-                secondaryText="test@test.com"
+                secondaryText="test@test.com – Outta here."
                 secondaryTextLines={1} />
         </List>
         <Divider
@@ -101,6 +101,12 @@ ShallowWrapper {
         </h3>
         <p>
             Ceci est la description.
+        </p>
+        <h3>
+            Bio
+        </h3>
+        <p>
+            Ceci est la bio.
         </p>
         <h3>
             Message pour l'équipe / Message for the team
@@ -193,7 +199,7 @@ ShallowWrapper {
                                           color="#f44336" />
                               </IconButton>
                         }
-                        secondaryText="test@test.com"
+                        secondaryText="test@test.com – Outta here."
                         secondaryTextLines={1} />
             </List>
             <Divider
@@ -206,6 +212,12 @@ ShallowWrapper {
             </h3>
             <p>
                   Ceci est la description.
+            </p>
+            <h3>
+                  Bio
+            </h3>
+            <p>
+                  Ceci est la bio.
             </p>
             <h3>
                   Message pour l'équipe / Message for the team
@@ -225,6 +237,7 @@ ShallowWrapper {
       "_currentElement": <Talk
         talk={
                 Object {
+                        "bio": "Ceci est la bio.",
                         "courriel_e_mail": "test@test.com",
                         "description": "Ceci est la description.",
                         "duree_duration": "45 minutes",
@@ -248,6 +261,7 @@ ShallowWrapper {
         "context": Object {},
         "props": Object {
           "talk": Object {
+            "bio": "Ceci est la bio.",
             "courriel_e_mail": "test@test.com",
             "description": "Ceci est la description.",
             "duree_duration": "45 minutes",
@@ -365,7 +379,7 @@ ShallowWrapper {
                                                                       color="#f44336" />
                                                   </IconButton>
                                         }
-                                        secondaryText="test@test.com"
+                                        secondaryText="test@test.com – Outta here."
                                         secondaryTextLines={1} />
                     </List>
                     <Divider
@@ -378,6 +392,12 @@ ShallowWrapper {
                     </h3>
                     <p>
                               Ceci est la description.
+                    </p>
+                    <h3>
+                              Bio
+                    </h3>
+                    <p>
+                              Ceci est la bio.
                     </p>
                     <h3>
                               Message pour l'équipe / Message for the team
@@ -470,7 +490,7 @@ ShallowWrapper {
                                                                       color="#f44336" />
                                                   </IconButton>
                                         }
-                                        secondaryText="test@test.com"
+                                        secondaryText="test@test.com – Outta here."
                                         secondaryTextLines={1} />
                     </List>
                     <Divider
@@ -483,6 +503,12 @@ ShallowWrapper {
                     </h3>
                     <p>
                               Ceci est la description.
+                    </p>
+                    <h3>
+                              Bio
+                    </h3>
+                    <p>
+                              Ceci est la bio.
                     </p>
                     <h3>
                               Message pour l'équipe / Message for the team
@@ -506,6 +532,7 @@ ShallowWrapper {
   "unrendered": <Talk
     talk={
         Object {
+            "bio": "Ceci est la bio.",
             "courriel_e_mail": "test@test.com",
             "description": "Ceci est la description.",
             "duree_duration": "45 minutes",

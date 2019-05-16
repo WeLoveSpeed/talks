@@ -40,8 +40,16 @@ ShallowWrapper {
                 disabled={false}
                 focusState="none"
                 insetChildren={false}
-                primaryText="Note"
-                value="note" />
+                primaryText="Note totale"
+                value="total" />
+            <MenuItem
+                checked={false}
+                desktop={false}
+                disabled={false}
+                focusState="none"
+                insetChildren={false}
+                primaryText="Nombre de notes"
+                value="nbNotes" />
         </SelectField>
     </div>
     <SelectableList
@@ -52,13 +60,7 @@ ShallowWrapper {
             disabled={false}
             initiallyOpen={false}
             insetChildren={false}
-            leftAvatar={
-                <Avatar
-                    backgroundColor="#ff9800"
-                    size={40}>
-                    LT
-                </Avatar>
-            }
+            leftAvatar={null}
             nestedItems={Array []}
             nestedLevel={0}
             onKeyboardFocus={[Function]}
@@ -81,13 +83,7 @@ ShallowWrapper {
             disabled={false}
             initiallyOpen={false}
             insetChildren={false}
-            leftAvatar={
-                <Avatar
-                    backgroundColor="#009688"
-                    size={40}>
-                    PK
-                </Avatar>
-            }
+            leftAvatar={null}
             nestedItems={Array []}
             nestedLevel={0}
             onKeyboardFocus={[Function]}
@@ -164,8 +160,16 @@ ShallowWrapper {
                         disabled={false}
                         focusState="none"
                         insetChildren={false}
-                        primaryText="Note"
-                        value="note" />
+                        primaryText="Note totale"
+                        value="total" />
+                  <MenuItem
+                        checked={false}
+                        desktop={false}
+                        disabled={false}
+                        focusState="none"
+                        insetChildren={false}
+                        primaryText="Nombre de notes"
+                        value="nbNotes" />
             </SelectField>
       </div>
       <SelectableList
@@ -176,13 +180,7 @@ ShallowWrapper {
                   disabled={false}
                   initiallyOpen={false}
                   insetChildren={false}
-                  leftAvatar={
-                        <Avatar
-                              backgroundColor="#ff9800"
-                              size={40}>
-                              LT
-                        </Avatar>
-                  }
+                  leftAvatar={null}
                   nestedItems={Array []}
                   nestedLevel={0}
                   onKeyboardFocus={[Function]}
@@ -205,13 +203,7 @@ ShallowWrapper {
                   disabled={false}
                   initiallyOpen={false}
                   insetChildren={false}
-                  leftAvatar={
-                        <Avatar
-                              backgroundColor="#009688"
-                              size={40}>
-                              PK
-                        </Avatar>
-                  }
+                  leftAvatar={null}
                   nestedItems={Array []}
                   nestedLevel={0}
                   onKeyboardFocus={[Function]}
@@ -263,7 +255,6 @@ ShallowWrapper {
       "_currentElement": <TalkList
         count={
                 Object {
-                        "PK": 1,
                         "all": 3,
                       }
         }
@@ -302,12 +293,10 @@ ShallowWrapper {
         talks={
                 Array [
                         Object {
-                          "formats": "Lightning Talk : 5 minutes",
                           "prenom_et_nom": "Boris Schapira",
                           "titre_de_ta_presentation": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, esse.",
                         },
                         Object {
-                          "formats": "Pecha Kucha : 20 images x 20 secondes",
                           "prenom_et_nom": "Boris Schapira",
                           "titre_de_ta_presentation": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, esse.",
                         },
@@ -325,7 +314,6 @@ ShallowWrapper {
         "context": Object {},
         "props": Object {
           "count": Object {
-            "PK": 1,
             "all": 3,
           },
           "notes": Array [
@@ -360,12 +348,10 @@ ShallowWrapper {
           "sortTalks": [Function],
           "talks": Array [
             Object {
-              "formats": "Lightning Talk : 5 minutes",
               "prenom_et_nom": "Boris Schapira",
               "titre_de_ta_presentation": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, esse.",
             },
             Object {
-              "formats": "Pecha Kucha : 20 images x 20 secondes",
               "prenom_et_nom": "Boris Schapira",
               "titre_de_ta_presentation": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, esse.",
             },
@@ -429,8 +415,16 @@ ShallowWrapper {
                                         disabled={false}
                                         focusState="none"
                                         insetChildren={false}
-                                        primaryText="Note"
-                                        value="note" />
+                                        primaryText="Note totale"
+                                        value="total" />
+                              <MenuItem
+                                        checked={false}
+                                        desktop={false}
+                                        disabled={false}
+                                        focusState="none"
+                                        insetChildren={false}
+                                        primaryText="Nombre de notes"
+                                        value="nbNotes" />
                     </SelectField>
           </div>
           <SelectableList
@@ -441,13 +435,7 @@ ShallowWrapper {
                               disabled={false}
                               initiallyOpen={false}
                               insetChildren={false}
-                              leftAvatar={
-                                        <Avatar
-                                                  backgroundColor="#ff9800"
-                                                  size={40}>
-                                                  LT
-                                        </Avatar>
-                              }
+                              leftAvatar={null}
                               nestedItems={Array []}
                               nestedLevel={0}
                               onKeyboardFocus={[Function]}
@@ -470,13 +458,7 @@ ShallowWrapper {
                               disabled={false}
                               initiallyOpen={false}
                               insetChildren={false}
-                              leftAvatar={
-                                        <Avatar
-                                                  backgroundColor="#009688"
-                                                  size={40}>
-                                                  PK
-                                        </Avatar>
-                              }
+                              leftAvatar={null}
                               nestedItems={Array []}
                               nestedLevel={0}
                               onKeyboardFocus={[Function]}
@@ -553,8 +535,16 @@ ShallowWrapper {
                                         disabled={false}
                                         focusState="none"
                                         insetChildren={false}
-                                        primaryText="Note"
-                                        value="note" />
+                                        primaryText="Note totale"
+                                        value="total" />
+                              <MenuItem
+                                        checked={false}
+                                        desktop={false}
+                                        disabled={false}
+                                        focusState="none"
+                                        insetChildren={false}
+                                        primaryText="Nombre de notes"
+                                        value="nbNotes" />
                     </SelectField>
           </div>
           <SelectableList
@@ -565,13 +555,7 @@ ShallowWrapper {
                               disabled={false}
                               initiallyOpen={false}
                               insetChildren={false}
-                              leftAvatar={
-                                        <Avatar
-                                                  backgroundColor="#ff9800"
-                                                  size={40}>
-                                                  LT
-                                        </Avatar>
-                              }
+                              leftAvatar={null}
                               nestedItems={Array []}
                               nestedLevel={0}
                               onKeyboardFocus={[Function]}
@@ -594,13 +578,7 @@ ShallowWrapper {
                               disabled={false}
                               initiallyOpen={false}
                               insetChildren={false}
-                              leftAvatar={
-                                        <Avatar
-                                                  backgroundColor="#009688"
-                                                  size={40}>
-                                                  PK
-                                        </Avatar>
-                              }
+                              leftAvatar={null}
                               nestedItems={Array []}
                               nestedLevel={0}
                               onKeyboardFocus={[Function]}
@@ -656,7 +634,6 @@ ShallowWrapper {
   "unrendered": <TalkList
     count={
         Object {
-            "PK": 1,
             "all": 3,
           }
     }
@@ -695,12 +672,10 @@ ShallowWrapper {
     talks={
         Array [
             Object {
-              "formats": "Lightning Talk : 5 minutes",
               "prenom_et_nom": "Boris Schapira",
               "titre_de_ta_presentation": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, esse.",
             },
             Object {
-              "formats": "Pecha Kucha : 20 images x 20 secondes",
               "prenom_et_nom": "Boris Schapira",
               "titre_de_ta_presentation": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, esse.",
             },

@@ -9,6 +9,7 @@ export const parseNotes = notes => {
     var row = notes[i];
     let talk = {
       total: 0,
+      nbNotes: 0,
       values: {}
     };
 
@@ -16,8 +17,9 @@ export const parseNotes = notes => {
       notes[0].map((name, j) => {
         if (name === "Total") {
           talk.total = Number(row[j]);
-        }
-        if (j > 1) {
+        } else if (name === "NbNotes") {
+          talk.nbNotes = Number(row[j]);
+        } else if (name != "Sujet") {
           return talk.values[name] = Number(row[j]);
         }
         return false;

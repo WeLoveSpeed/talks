@@ -9,13 +9,11 @@ import { ListItem } from "material-ui/List";
 const talks = [
   {
     titre_de_ta_presentation: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, esse.",
-    prenom_et_nom: "Boris Schapira",
-    formats: "Lightning Talk : 5 minutes"
+    prenom_et_nom: "Boris Schapira"
   },
   {
     titre_de_ta_presentation: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, esse.",
-    prenom_et_nom: "Boris Schapira",
-    formats: "Pecha Kucha : 20 images x 20 secondes"
+    prenom_et_nom: "Boris Schapira"
   },
   {
     titre_de_ta_presentation: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, esse.",
@@ -38,7 +36,7 @@ describe("TalkList component", () => {
     const component = shallow(
       <TalkList
         selectedTalk={0}
-        count={{ all: 3, PK: 2, PK: 1 }}
+        count={{ all: 3 }}
         talks={talks}
         notes={notes}
         selectTalk={id => selectTalk(id)}

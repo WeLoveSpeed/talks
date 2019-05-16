@@ -13,7 +13,7 @@ it("renders correctly", () => {
   const component = shallow(
     <AppView
       selectedTalk={0}
-      count={{ all: 3, PK: 2, PK: 1 }}
+      count={{ all: 3 }}
       talks={mockTalks}
     />
   );

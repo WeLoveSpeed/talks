@@ -23,7 +23,14 @@ ShallowWrapper {
                   }
             }>
             <strong>
-                Note globale : 
+                Note globale : 
+                 
+                <small>
+                    (
+                     note
+                    
+                    )
+                </small>
             </strong>
         </span>
         <SelectField
@@ -133,7 +140,14 @@ ShallowWrapper {
                             }
                   }>
                   <strong>
-                        Note globale : 
+                        Note globale : 
+                         
+                        <small>
+                              (
+                               note
+                              
+                              )
+                        </small>
                   </strong>
             </span>
             <SelectField
@@ -287,7 +301,14 @@ ShallowWrapper {
                                                 }
                               }>
                               <strong>
-                                        Note globale : 
+                                        Note globale : 
+                                         
+                                        <small>
+                                                  (
+                                                   note
+                                                  
+                                                  )
+                                        </small>
                               </strong>
                     </span>
                     <SelectField
@@ -397,7 +418,14 @@ ShallowWrapper {
                                                 }
                               }>
                               <strong>
-                                        Note globale : 
+                                        Note globale : 
+                                         
+                                        <small>
+                                                  (
+                                                   note
+                                                  
+                                                  )
+                                        </small>
                               </strong>
                     </span>
                     <SelectField
@@ -531,7 +559,16 @@ ShallowWrapper {
                   }
             }>
             <strong>
-                Note globale : 
+                Note globale : 
+                1
+                 
+                <small>
+                    (
+                    3
+                     note
+                    s
+                    )
+                </small>
             </strong>
         </span>
         <SelectField
@@ -722,7 +759,16 @@ ShallowWrapper {
                             }
                   }>
                   <strong>
-                        Note globale : 
+                        Note globale : 
+                        1
+                         
+                        <small>
+                              (
+                              3
+                               note
+                              s
+                              )
+                        </small>
                   </strong>
             </span>
             <SelectField
@@ -903,6 +949,8 @@ ShallowWrapper {
       "_compositeType": 0,
       "_context": Object {},
       "_currentElement": <NotesView
+        globalNote={1}
+        nbNotes={3}
         othersNote={
                 Array [
                         Array [
@@ -932,6 +980,8 @@ ShallowWrapper {
         "handleNestedListToggle": [Function],
         "handleNoteChange": [Function],
         "props": Object {
+          "globalNote": 1,
+          "nbNotes": 3,
           "othersNote": Array [
             Array [
               "boris",
@@ -991,7 +1041,16 @@ ShallowWrapper {
                                                 }
                               }>
                               <strong>
-                                        Note globale : 
+                                        Note globale : 
+                                        1
+                                         
+                                        <small>
+                                                  (
+                                                  3
+                                                   note
+                                                  s
+                                                  )
+                                        </small>
                               </strong>
                     </span>
                     <SelectField
@@ -1182,7 +1241,16 @@ ShallowWrapper {
                                                 }
                               }>
                               <strong>
-                                        Note globale : 
+                                        Note globale : 
+                                        1
+                                         
+                                        <small>
+                                                  (
+                                                  3
+                                                   note
+                                                  s
+                                                  )
+                                        </small>
                               </strong>
                     </span>
                     <SelectField
@@ -1367,6 +1435,8 @@ ShallowWrapper {
   },
   "root": [Circular],
   "unrendered": <NotesView
+    globalNote={1}
+    nbNotes={3}
     othersNote={
         Array [
             Array [
@@ -1415,7 +1485,14 @@ ShallowWrapper {
                   }
             }>
             <strong>
-                Note globale : 
+                Note globale : 
+                 
+                <small>
+                    (
+                     note
+                    
+                    )
+                </small>
             </strong>
         </span>
         <TableRow
@@ -1509,7 +1586,14 @@ ShallowWrapper {
                             }
                   }>
                   <strong>
-                        Note globale : 
+                        Note globale : 
+                         
+                        <small>
+                              (
+                               note
+                              
+                              )
+                        </small>
                   </strong>
             </span>
             <TableRow
@@ -1667,7 +1751,14 @@ ShallowWrapper {
                                                 }
                               }>
                               <strong>
-                                        Note globale : 
+                                        Note globale : 
+                                         
+                                        <small>
+                                                  (
+                                                   note
+                                                  
+                                                  )
+                                        </small>
                               </strong>
                     </span>
                     <TableRow
@@ -1761,7 +1852,14 @@ ShallowWrapper {
                                                 }
                               }>
                               <strong>
-                                        Note globale : 
+                                        Note globale : 
+                                         
+                                        <small>
+                                                  (
+                                                   note
+                                                  
+                                                  )
+                                        </small>
                               </strong>
                     </span>
                     <TableRow
@@ -1890,7 +1988,16 @@ ShallowWrapper {
                   }
             }>
             <strong>
-                Note globale : 
+                Note globale : 
+                1
+                 
+                <small>
+                    (
+                    3
+                     note
+                    s
+                    )
+                </small>
             </strong>
         </span>
         <TableRow
@@ -2027,7 +2134,16 @@ ShallowWrapper {
                             }
                   }>
                   <strong>
-                        Note globale : 
+                        Note globale : 
+                        1
+                         
+                        <small>
+                              (
+                              3
+                               note
+                              s
+                              )
+                        </small>
                   </strong>
             </span>
             <TableRow
@@ -2154,7 +2270,9 @@ ShallowWrapper {
       "_compositeType": 0,
       "_context": Object {},
       "_currentElement": <NotesView
+        globalNote={1}
         myProfileName="Boris"
+        nbNotes={3}
         othersNote={
                 Array [
                         Array [
@@ -2184,7 +2302,9 @@ ShallowWrapper {
         "handleNestedListToggle": [Function],
         "handleNoteChange": [Function],
         "props": Object {
+          "globalNote": 1,
           "myProfileName": "Boris",
+          "nbNotes": 3,
           "othersNote": Array [
             Array [
               "boris",
@@ -2244,7 +2364,16 @@ ShallowWrapper {
                                                 }
                               }>
                               <strong>
-                                        Note globale : 
+                                        Note globale : 
+                                        1
+                                         
+                                        <small>
+                                                  (
+                                                  3
+                                                   note
+                                                  s
+                                                  )
+                                        </small>
                               </strong>
                     </span>
                     <TableRow
@@ -2381,7 +2510,16 @@ ShallowWrapper {
                                                 }
                               }>
                               <strong>
-                                        Note globale : 
+                                        Note globale : 
+                                        1
+                                         
+                                        <small>
+                                                  (
+                                                  3
+                                                   note
+                                                  s
+                                                  )
+                                        </small>
                               </strong>
                     </span>
                     <TableRow
@@ -2512,7 +2650,9 @@ ShallowWrapper {
   },
   "root": [Circular],
   "unrendered": <NotesView
+    globalNote={1}
     myProfileName="Boris"
+    nbNotes={3}
     othersNote={
         Array [
             Array [

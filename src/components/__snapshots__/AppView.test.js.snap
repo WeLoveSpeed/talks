@@ -63,7 +63,6 @@ ShallowWrapper {
                 <TalkList
                     count={
                         Object {
-                            "PK": 1,
                             "all": 3,
                           }
                     }
@@ -142,7 +141,6 @@ ShallowWrapper {
                         <TalkList
                               count={
                                     Object {
-                                          "PK": 1,
                                           "all": 3,
                                         }
                               }
@@ -173,7 +171,6 @@ ShallowWrapper {
       "_currentElement": <AppView
         count={
                 Object {
-                        "PK": 1,
                         "all": 3,
                       }
         }
@@ -193,7 +190,6 @@ ShallowWrapper {
         "context": Object {},
         "props": Object {
           "count": Object {
-            "PK": 1,
             "all": 3,
           },
           "selectedTalk": 0,
@@ -283,7 +279,6 @@ ShallowWrapper {
                                         <TalkList
                                                   count={
                                                             Object {
-                                                                      "PK": 1,
                                                                       "all": 3,
                                                                     }
                                                   }
@@ -362,7 +357,6 @@ ShallowWrapper {
                                         <TalkList
                                                   count={
                                                             Object {
-                                                                      "PK": 1,
                                                                       "all": 3,
                                                                     }
                                                   }
@@ -397,7 +391,6 @@ ShallowWrapper {
   "unrendered": <AppView
     count={
         Object {
-            "PK": 1,
             "all": 3,
           }
     }

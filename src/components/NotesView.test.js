@@ -22,6 +22,8 @@ describe("NotesView component", () => {
         othersNote={othersNote}
         ownName="Boris"
         ownNote={0}
+        globalNote={1}
+        nbNotes={3}
       />
     );
 
@@ -40,6 +42,8 @@ describe("NotesView component", () => {
         ownName={null}
         myProfileName="Boris"
         ownNote={0}
+        globalNote={1}
+        nbNotes={3}
       />
     );
 

@@ -39,61 +39,22 @@ export const parseTalks = talks => {
   return talksArray;
 };
 
-export const isPK = format => {
-  return format === "Pecha Kucha : 20 images x 20 secondes";
-};
-
-export const isLT = format => {
-  return format === "Lightning Talk : 5 minutes";
-};
-
 export const getFilteredList = state => {
   const { talks, notes, filter, sortBy } = state;
   let sortedTalks = notes !== null
     ? _.map(talks, talk => {
-        talk.note = notes[talk.id - 1].total;
+        console.log(notes[talk.id - 1][name]);
+        talk.total = notes[talk.id - 1].total;
+        talk.nbNotes = notes[talk.id - 1].nbNotes;
         return talk;
       })
     : talks;
 
   sortedTalks = _.sortBy(sortedTalks, sortBy);
 
-  if (sortBy === "note") {
+  if (sortBy === "note" || sortBy === "total") {
     sortedTalks.reverse();
   }
 
-  if (filter === "PK") {
-    return sortedTalks.filter(talk => {
-      return isPK(talk.formats);
-    });
-  }
-
-  if (filter === "LT") {
-    return sortedTalks.filter(talk => {
-      return isLT(talk.formats);
-    });
-  }
   return sortedTalks;
-};
-
-export const countTalksByFormats = talks => {
-  if (talks === null) {
-    return null;
-  }
-  let all = talks.length, PK = 0, LT = 0;
-  talks.map(talk => {
-    if (isPK(talk.formats)) {
-      PK++;
-    }
-    if (isLT(talk.formats)) {
-      LT++;
-    }
-    return false;
-  });
-
-  return {
-    all,
-    PK,
-    LT
-  };
 };

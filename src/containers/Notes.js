@@ -13,7 +13,8 @@ const mapStateToProps = state => {
     ownNote: getOwnNote(notes, state.ownName),
     myProfileName: state.profile.name,
     othersNote: getOthersNote(notes, state.ownName),
-    globalNote: state.notes[state.selectedTalk].total
+    globalNote: state.notes[state.selectedTalk].total,
+    nbNotes: state.notes[state.selectedTalk].nbNotes
   };
 };
 

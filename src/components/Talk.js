@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import moment from "moment";
 import md5 from "js-md5";
-import { isPK } from "../selectors/Talks";
 
 import { List, ListItem } from "material-ui/List";
 import Avatar from "material-ui/Avatar";
@@ -9,8 +8,7 @@ import CommunicationEmail from "material-ui/svg-icons/communication/email";
 import {
   red500,
   lightBlack,
-  orange500,
-  teal500
+  orange500
 } from "material-ui/styles/colors";
 import Chip from "material-ui/Chip";
 import IconButton from "material-ui/IconButton";
@@ -113,7 +111,7 @@ class Talk extends Component {
     }
 
     const formatStyle = {
-      backgroundColor: isPK(talk.formats) ? teal500 : orange500,
+      backgroundColor: orange500,
       marginTop: ".85em"
     };
 

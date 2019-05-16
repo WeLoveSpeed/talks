@@ -123,7 +123,7 @@ class NotesView extends Component {
           }}
         >
           <span style={{ flex: 1 }}>
-            <strong>Note globale :&nbsp;</strong>{this.props.globalNote}
+            <strong>Note globale&nbsp;:&nbsp;{this.props.globalNote} <small>({this.props.nbNotes} note{this.props.nbNotes > 1 ? 's' : ''})</small></strong>
           </span>
           {this.getownNote()}
           <IconButton
